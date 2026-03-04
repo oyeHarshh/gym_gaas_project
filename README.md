@@ -161,3 +161,13 @@ Gym_SaaS_Project/
   ---
   To stop PostgreSQL when done:
   pg_ctl -D /Volumes/DevEnv/data/postgresql stop
+
+   ┌──────────┬───────────────────────────────────┐                                                            
+  │ Command  │              Action               │
+  ├──────────┼───────────────────────────────────┤
+  │ devstart │ Start PostgreSQL + Redis + Colima │
+  ├──────────┼───────────────────────────────────┤
+  │ devstop  │ Stop all three services           │
+  ├──────────┼───────────────────────────────────┤
+  │ deveject │ Stop all + eject DevEnv volume    │
+  └──────────┴───────────────────────────────────┘
