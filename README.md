@@ -131,3 +131,43 @@ Gym_SaaS_Project/
 | Font | Inter |
 | Icon | `fa-seedling` |
 | Design | Modern SaaS · card-based · non-tech friendly · India-focused |
+
+
+## PostgreSql starting in Mac
+                                              
+⏺ Step 1 — Start PostgreSQL (run this in terminal):                                                                                                                                           
+  pg_ctl -D /Volumes/DevEnv/data/postgresql start -l /Volumes/DevEnv/data/postgresql/pg.log                                                                                             
+                                                                                                                                                        
+  To verify it's running:    
+  pg_isready -h localhost -p 5432                                                                                                                                                             
+  You should see: localhost:5432 - accepting connections               
+  ---                                                                                                                                                                                         
+  Step 2 — Open DBeaver:                                                                                                                                                                      
+  - Press Cmd + Space → type DBeaver → Enter
+
+  ---
+  Step 3 — Connect to the database:
+  1. Click New Database Connection (plug icon top-left)
+  2. Select PostgreSQL → Next
+  3. Fill in:
+    - Host: localhost
+    - Port: 5432
+    - Database: gymsaas
+    - Username: gymsaas_user
+    - Password: gymsaas_pass
+  4. Click Test Connection → should say Connected
+  5. Click Finish
+
+  ---
+  To stop PostgreSQL when done:
+  pg_ctl -D /Volumes/DevEnv/data/postgresql stop
+
+   ┌──────────┬───────────────────────────────────┐                                                            
+  │ Command  │              Action               │
+  ├──────────┼───────────────────────────────────┤
+  │ devstart │ Start PostgreSQL + Redis + Colima │
+  ├──────────┼───────────────────────────────────┤
+  │ devstop  │ Stop all three services           │
+  ├──────────┼───────────────────────────────────┤
+  │ deveject │ Stop all + eject DevEnv volume    │
+  └──────────┴───────────────────────────────────┘

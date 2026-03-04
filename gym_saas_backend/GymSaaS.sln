@@ -1,0 +1,64 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{FCCFB6A5-0FFE-4EC6-B271-75942C17E72D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GymSaaS.Core", "src\GymSaaS.Core\GymSaaS.Core.csproj", "{E19060F7-1364-4A71-93EA-0F99BFD04328}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GymSaaS.Infrastructure", "src\GymSaaS.Infrastructure\GymSaaS.Infrastructure.csproj", "{C15EF998-CAB9-428F-89D0-8822DBE7091B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GymSaaS.Domain", "src\GymSaaS.Domain\GymSaaS.Domain.csproj", "{E45E3E9F-CB6D-4DFD-A7EA-C163F7E355A0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GymSaaS.Services", "src\GymSaaS.Services\GymSaaS.Services.csproj", "{B72D00A9-3350-497C-863E-37620F3DA93C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GymSaaS.API", "src\GymSaaS.API\GymSaaS.API.csproj", "{ECBA8C79-78CB-424A-8053-11A5065C9EC6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{5F81C620-36B1-4206-B9CC-205BC6548C9E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GymSaaS.Tests", "tests\GymSaaS.Tests\GymSaaS.Tests.csproj", "{AA7F66A2-EF60-460D-879E-930B2A524844}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E19060F7-1364-4A71-93EA-0F99BFD04328}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E19060F7-1364-4A71-93EA-0F99BFD04328}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E19060F7-1364-4A71-93EA-0F99BFD04328}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E19060F7-1364-4A71-93EA-0F99BFD04328}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C15EF998-CAB9-428F-89D0-8822DBE7091B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C15EF998-CAB9-428F-89D0-8822DBE7091B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C15EF998-CAB9-428F-89D0-8822DBE7091B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C15EF998-CAB9-428F-89D0-8822DBE7091B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E45E3E9F-CB6D-4DFD-A7EA-C163F7E355A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E45E3E9F-CB6D-4DFD-A7EA-C163F7E355A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E45E3E9F-CB6D-4DFD-A7EA-C163F7E355A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E45E3E9F-CB6D-4DFD-A7EA-C163F7E355A0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B72D00A9-3350-497C-863E-37620F3DA93C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B72D00A9-3350-497C-863E-37620F3DA93C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B72D00A9-3350-497C-863E-37620F3DA93C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B72D00A9-3350-497C-863E-37620F3DA93C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ECBA8C79-78CB-424A-8053-11A5065C9EC6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ECBA8C79-78CB-424A-8053-11A5065C9EC6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ECBA8C79-78CB-424A-8053-11A5065C9EC6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ECBA8C79-78CB-424A-8053-11A5065C9EC6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AA7F66A2-EF60-460D-879E-930B2A524844}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AA7F66A2-EF60-460D-879E-930B2A524844}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AA7F66A2-EF60-460D-879E-930B2A524844}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AA7F66A2-EF60-460D-879E-930B2A524844}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E19060F7-1364-4A71-93EA-0F99BFD04328} = {FCCFB6A5-0FFE-4EC6-B271-75942C17E72D}
+		{C15EF998-CAB9-428F-89D0-8822DBE7091B} = {FCCFB6A5-0FFE-4EC6-B271-75942C17E72D}
+		{E45E3E9F-CB6D-4DFD-A7EA-C163F7E355A0} = {FCCFB6A5-0FFE-4EC6-B271-75942C17E72D}
+		{B72D00A9-3350-497C-863E-37620F3DA93C} = {FCCFB6A5-0FFE-4EC6-B271-75942C17E72D}
+		{ECBA8C79-78CB-424A-8053-11A5065C9EC6} = {FCCFB6A5-0FFE-4EC6-B271-75942C17E72D}
+		{AA7F66A2-EF60-460D-879E-930B2A524844} = {5F81C620-36B1-4206-B9CC-205BC6548C9E}
+	EndGlobalSection
+EndGlobal
